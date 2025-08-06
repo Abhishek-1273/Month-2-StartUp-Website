@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | StartUp</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <header class="bg-img">
+    <section class="bg-img-color" aria-label="Contact Page Navigation">
+      <nav class="navbar">
+                <div class="navbar-container">
+                    <img src="/assets/icons/logo.png" alt="logo" class="logo">
+                    <button class="navbar-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <ul class="navbar-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </section>
+  </header>
+
+  <section class="contact-hero">
+    <h1>Let's connect and build something great</h1>
+    <p>Have a project in mind or just want to say hello? We're just a message away.</p>
+  </section>
+
+  <main class="contact-section">
+    <!-- Contact Form -->
+    <div class="contact-form autoShow">
+      <h2>Send Us a Message</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Quick Info -->
+    <div class="contact-info">
+      <div class="info-card">
+        <img src="/assets/icons/email.png" class="info-icon" alt="Email Icon" />
+        <div class="info-text">
+          <h4>Email</h4>
+          <p>contact@startup.com</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <img src="/assets/icons/phone.png" class="info-icon" alt="Phone Icon" />
+        <div class="info-text">
+          <h4>Phone</h4>
+          <p>+91 98765 43210</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <img src="/assets/icons/office.png" class="info-icon" alt="Location Icon" />
+        <div class="info-text">
+          <h4>Office</h4>
+          <p>Delhi, India</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Map Section Placeholder -->
+  <div class="map-placeholder">
+    Google Map integration coming soon...
+  </div>
+
+  <footer>
+    <div class="foot">
+      <p>&copy; Copyright 2025 | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
